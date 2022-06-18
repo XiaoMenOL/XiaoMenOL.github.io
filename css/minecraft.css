@@ -5,7 +5,7 @@
 	font-family: 'Unifont';
 	font-weight: bold;
 	font-style: normal;
-	src: url('/fonts/Unifont.woff') format('woff');
+	src: url('/fonts/Unifont.woff2') format('woff2');
 	font-display: swap;
 }
 
