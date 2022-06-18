@@ -1,14 +1,18 @@
 @charset "utf-8";
-@font-face{
--webkit-text-size-adjust: none;
-font-family: 'Unifont';
-font-weight: bold;
-font-style:normal;
-src: url('/fonts/Unifont.woff') format('woff'),
-	 url('/fonts/Unifont.otf') format('opentype'),
-	 url('/fonts/Unifont.eot') format('embedded-opentype'),
-	 url('/fonts/Unifont.ttf') format('truetype'),
-	 url('/fonts/Unifont.svg#Unifont') format('svg');
-font-display: swap;
+
+@font-face {
+	-webkit-text-size-adjust: none;
+	font-family: 'Unifont';
+	font-weight: bold;
+	font-style: normal;
+	src: url('/fonts/Unifont.woff') format('woff'),
+		url('/fonts/Unifont.otf') format('opentype'),
+		url('/fonts/Unifont.eot') format('embedded-opentype'),
+		url('/fonts/Unifont.ttf') format('truetype'),
+		url('/fonts/Unifont.svg#Unifont') format('svg');
+	font-display: swap;
 }
-*{ font-family: "Unifont" }
+
+* {
+	font-family: "Unifont"
+}
